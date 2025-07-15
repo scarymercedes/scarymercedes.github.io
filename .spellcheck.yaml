@@ -14,7 +14,7 @@ matrix:
       - code
       - pre
   sources:
-  - 'martinblog/_posts/*'
-  - 'martinblog/*.markdown'
+  - '_posts/*'
+  - '*.markdown'
   - 'README.md'
   default_encoding: utf-8
