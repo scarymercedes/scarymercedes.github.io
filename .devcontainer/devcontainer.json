@@ -15,7 +15,15 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bundle install && bundle exec jekyll serve --livereload"
+	"postCreateCommand": "bundle install && bundle exec jekyll serve --livereload",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ginfuru.ginfuru-vscode-jekyll-syntax",
+				"bierner.markdown-mermaid"
+			]
+		}
+	}
 
 	// Configure tool-specific properties.
 	// "customizations": {},
