@@ -32,7 +32,7 @@ linkedin_username: martin-bonica
 github_username: scarymercedes
 mastodon:
  - username: scarymercedes
-   instance: mastodon.cloud
+   instance: sunny.garden
 
 # Build settings
 theme: minima
